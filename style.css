@@ -11,6 +11,11 @@
 .glyphicon {
     font-size: 100px;
 }
+.feature-icon:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight:bold;
+  cursor: pointer;
+}
 .feature-icon .fa{
     font-size: 100px;
     color: grey;
@@ -19,16 +24,28 @@
     padding-right: 10px;
     
 }
-.feature-text p{
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 10px;
-    text-align: initial;
-    padding-bottom: 50px;
-}
 .border{
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+.card{
+  border: none !important;
+}
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  font-weight:bold;
+  cursor: pointer;
+}
+.card-text{
+  text-align: center;
+}
+.card-img-top{
+  margin: 0 auto;
+  height:170px;
+  width:100% !important;
+}
+
